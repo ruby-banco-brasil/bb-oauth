@@ -7,11 +7,11 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.homepage    = "https://github.com/ruby-banco-brasil/bb-oauth"
   s.metadata    = { "source_code_uri" => "https://github.com/ruby-banco-brasil/bb-oauth" }
-  s.authors     = ["Rafael R. Aschoff"]
-  s.email       = ["roque.rafael@gmail.com"]
+  s.authors     = ["Rafael R. Aschoff", "Hent"]
+  s.email       = ["roque.rafael@gmail.com","tech@hent.com.br"]
   s.summary     = "A ruby wrapper for Banco do Brasil OAuth Client Credentials"
   s.description = "This gem maps to the BB Client Credentials"
-  s.license     = "Unlicense"
+  s.license     = "MIT"
   s.required_ruby_version = ">= 1.9"
 
   s.add_runtime_dependency 'typhoeus', '~> 1.0', '>= 1.0.1'
